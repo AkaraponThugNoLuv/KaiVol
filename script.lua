@@ -345,7 +345,7 @@ end
 -- เรียกใช้งานฟังก์ชัน
 hopToServerWithFewPlayers()
 
-task.delay(3600, function()
+task.delay(1000, function()
     game:GetService("Players").LocalPlayer:Kick("Kicked after 30 min.")
 end)
 
